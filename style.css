@@ -1,0 +1,15 @@
+body{
+    background-image: url("images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main-header{
+    text-align: center;
+}
+
+.main-heading{
+    font-size: 36px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
