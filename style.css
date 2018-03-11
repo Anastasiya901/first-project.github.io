@@ -1,15 +1,13 @@
-html{
-    /* margin-top: -16px; */
-}
-
+@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light');
+@import url('https://fonts.googleapis.com/css?family=Monoton');
 body{         
     margin: 0;
-    font-family: 'Quicksand', sans-serif;
     box-sizing: border-box;
 }
 
 .main-header{
     position: relative;
+
 }
 
 .header-wrapper{
@@ -23,12 +21,25 @@ body{
 
 .main-header{
     height: 100vh;
-    background: lightskyblue;
+    background: #4384ac;
 }
 
 .header-text{
     padding-top: 20%;
     text-align: center;
+    
+}
+.first{
+    font-family: 'Monoton', cursive;
+    font-size: 66px;
+    color: #ffd5fb;
+    margin-top: 0px;
+}
+.about{
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 44px;
+    margin-bottom: 0px;
+    color: #ccffcc;
 }
 
 .header-social{
@@ -50,13 +61,10 @@ body{
     font-size: 30px;
     color: black;
 }
-
-/* .container{
-    max-width: 768px;
-    margin:0 auto;
+/* .unicorn{
+    position: relative;
+    width: auto;
 } */
-
-h1{
-     
-    color:rgb(17, 17, 48)
+.unicorn-second{
+    position: absolute;
 }
