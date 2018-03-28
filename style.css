@@ -60,23 +60,10 @@ body{
 .social-link{
     font-size: 30px;
     color: black;
-}
-/* .unicorn{
-    position: relative;
-    width: auto;
-} */
-.unicorn-second{
-    position: absolute;
-    width: auto;
-    height: 159px;
-    top: 183px;
-    right: 349px;
-}
+} 
+
 .unicorn-third{
-    /* width: 100%; */
-    height: 120px;
-    position: absolute;
-    top: 15%;
-    right: 44%;
-    object-fit: cover;
-}
+    display: block;
+    width: 11%;
+    height: auto;
+}  
