@@ -21,7 +21,7 @@ body{
 
 .main-header{
     height: 100vh;
-    background: #4384ac;
+    background: rgba(93, 168, 230, 0.938);
 }
 
 .header-text{
