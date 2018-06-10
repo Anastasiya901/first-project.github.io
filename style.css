@@ -73,7 +73,7 @@ body{
     margin: 40px 0 5px;
     padding: 25px 0 5px;
     text-align: center;
-    background: rgb(0, 34, 102);
+    background-color: rgb(0, 34, 102);
  }
 .main-menu li{
    display: inline-block;
