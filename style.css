@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light');
 @import url('https://fonts.googleapis.com/css?family=Monoton');
+@import url('https://fonts.googleapis.com/css?family=Poor+Story');
 body{         
     margin: 0;
     box-sizing: border-box;
+    background-color: 	#FFEFD5;
 }
 
 .main-header{
@@ -72,18 +74,28 @@ body{
     list-style: none;
     margin: 0;
     padding: 0;
-    background-color: rgb(0, 34, 102);
+    background-color: rgb(20, 46, 99);
  }
 .main-menu li{
    display: inline-block;
-
+   position: relative;
+   align: center;
+   font-family: 'Poor Story', cursive;
+   font-size: 25px;
 }
 .main-menu a{
-display: block;
-  padding: 10px 15px;
+ display: block;
+  padding: 15px 20px;
   margin-right: -5px;
-  color: #ffffff;
-  border-left: 2px solid #2c3e50;
+  color: #cceefc;
+  border-left: 2px solid rgba(10, 5, 5, 0.137);
   text-decoration: none;
    
+}
+
+.main-menu a:hover{
+    background-color: #080938;
+}
+.main-menu > .active > a{
+    background-color: #080938;
 }
