@@ -79,7 +79,6 @@ body{
 .main-menu li{
    display: inline-block;
    position: relative;
-   align: center;
    font-family: 'Poor Story', cursive;
    font-size: 25px;
 }
