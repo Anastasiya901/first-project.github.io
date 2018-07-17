@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light');
 @import url('https://fonts.googleapis.com/css?family=Monoton');
 @import url('https://fonts.googleapis.com/css?family=Poor+Story');
+
 body{         
     margin: 0;
     box-sizing: border-box;
-    background-color: 	#FFEFD5;
+    background-color: #F5FFFA;
 }
 
 .main-header{
@@ -95,6 +96,12 @@ body{
 .main-menu a:hover{
     background-color: #080938;
 }
+
 .main-menu > .active > a{
     background-color: #080938;
+}
+
+.about-me {
+    font-family: 'Neucha', cursive;
+    font-size: xx-large;
 }
